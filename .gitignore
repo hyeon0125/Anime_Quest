@@ -1,0 +1,3 @@
+# Git 에 등록되지 말아야 할 파일 / 폴더들 목록
+.env
+node_modules

@@ -1,0 +1,27 @@
+{
+  "name": "anime-quiz",
+  "version": "1.0.0",
+  "description": "애니메이션 퀴즈",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "input": "node test/database_input",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "animedb": "node commands/LaftelDB.js",
+    "jb": "node commands/REGEXP.js"
+  },
+  "author": "hyeon mingit55",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
